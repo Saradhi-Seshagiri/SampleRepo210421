@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" 
+"http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+	<bean id="abhinav" class="com.TechM.PointOfSale.beans.Customer">
+		<property name="customerId" value="631476"/>
+		<property name="customerName" value="iSmart Abhinav"/>
+	</bean>
+	
+	<bean id="UmaMahesh" class="com.TechM.PointOfSale.beans.Customer">
+		<property name="customerId" value="12345"/>
+		<property name="customerName" value="Uma Mahesh Kr"/>
+	</bean>
+</beans>
